@@ -1,0 +1,34 @@
+.spinner-border
+{
+    display: block;
+    margin: 10% auto;
+}
+
+.div-btn {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .div-btn {
+        width: 50%;
+        flex-direction: column;
+    }
+}
+
+#aprovado
+{
+    width: 40%;
+    display: block;
+    margin: 10% auto;
+}
+
+#reprovado
+{
+    width: 40%;
+    display: block;
+    margin: 10% auto;
+}
